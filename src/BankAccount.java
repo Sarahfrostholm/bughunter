@@ -3,15 +3,15 @@
 double balance = 1000;
 
 void main() {
-    withdraw(1200);
-    deposit(100);
+    withdraw();
+    deposit();
     IO.println(balance);
 }
 
-void withdraw(double amount) {
-    balance = balance - amount;
+void withdraw() {
+    balance = balance - (double) 1200;
 }
 
-void deposit(double amount) {
-    balance = balance + amount;
+void deposit() {
+    balance = balance + (double) 100;
 }

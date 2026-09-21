@@ -14,5 +14,5 @@ double calculateAverage(int[] numbers) {
         sum += number;
     }
 
-    return  sum / numbers.length;
+    return  (double) sum / numbers.length;
 }
